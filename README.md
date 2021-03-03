@@ -1,6 +1,6 @@
 # MovieTheater
 ## How to run
-1. Clone repository
+1. Clone repository with `git clone https://github.com/zfdupont/MovieTheater`
 2. Navigate to folder with MovieTheater.java
 3. enter `javac MovieTheater.java` to compile the program
 4. Enter `java MovieTheater [args]` to run the program
