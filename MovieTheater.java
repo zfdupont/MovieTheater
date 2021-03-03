@@ -64,12 +64,12 @@ public class MovieTheater {
     }
 
     public static void main(String[] args) {
-        String inName = "src/input.txt";
-        String outName = "src/output.txt";
+        String inName = "input.txt";
+        String outName = "output.txt";
         if(args.length > 0){
             for (int i = 0; i < args.length; i++) {
-                if(args[i] == "-i") inName = args[i+1];
-                if(args[i] == "-o") outName = args[i+1];
+                if(args[i] == "--i") inName = args[i+1];
+                if(args[i] == "--o") outName = args[i+1];
             }
         }
         MovieTheater test = new MovieTheater();
